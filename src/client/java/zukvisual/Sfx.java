@@ -67,7 +67,7 @@ public final class Sfx {
     public static void play(SoundEvent ev, float pitch) {
         MinecraftClient mc = MinecraftClient.getInstance();
         if (mc.getSoundManager() == null) return;
-        mc.getSoundManager().play(PositionedSoundInstance.master(ev, pitch,));
+        mc.getSoundManager().play(PositionedSoundInstance.master(ev, pitch));
     }
 
     /** Короткий звук при включении (выше) и выключении (ниже). */
