@@ -3,7 +3,7 @@ package zukvisual;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.option.ParticlesMode;
+import net.minecraft.particle.ParticlesMode;
 
 /**
  * FPSBoost: пока модуль включён, ставит лёгкие настройки (меньше ванильных частиц,
