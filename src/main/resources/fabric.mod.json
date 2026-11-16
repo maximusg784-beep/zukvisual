@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "zukvisual",
+  "version": "1.0.0",
+  "name": "Zukvisual",
+  "description": "Косметические визуалы: HUD, эффекты и меню в тёмном стиле с градиентами.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "zukvisual.ZukvisualClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    {
+      "config": "zukvisual.client.mixins.json",
+      "environment": "client"
+    }
+  ]
+}

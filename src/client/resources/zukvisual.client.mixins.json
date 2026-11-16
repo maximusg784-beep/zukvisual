@@ -1,0 +1,17 @@
+{
+  "required": false,
+  "package": "zukvisual.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraMixin",
+    "EntityMixin",
+    "InGameHudMixin",
+    "FireOverlayMixin",
+    "ItemEntityMixin",
+    "ItemEntityRendererMixin",
+    "MinecraftClientAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
